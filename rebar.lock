@@ -24,5 +24,5 @@
   0},
  {<<"setup">>,
   {git,"https://github.com/ates/setup.git",
-       {ref,"760da4a5dde31fc0d17f64701ed2784a6bf7e331"}},
+       {ref,"92a792fc4d5823b747cb8e819bd3fdbeb02345c3"}},
   0}].

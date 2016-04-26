@@ -629,7 +629,7 @@ start_reporters() ->
 
 do_start_reporters(S) ->
     Opts = get_report_env(),
-    ?log(info, "Starting reporters with ~p~n", [ Opts ]),
+    error_logger:info_msg("Starting reporters with ~p~n", [Opts]),
     %% Dig out the mod opts.
     %% { reporters, [ {reporter1, [{opt1, val}, ...]}, {reporter2, [...]}]}
     %% Traverse list of reporter and launch reporter gen servers as dynamic
